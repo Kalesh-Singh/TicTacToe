@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
             int position = moveToPosition(move);
             String idString = "imageView" + position;
             Resources res = getResources();
-            int id = res.getIdentifier(idString, "id", getApplicationContext().getPackageName());
+            int id = res.getIdentifier(idString, "id", getApplicationContext()
+                    .getPackageName());
             ImageView counter = findViewById(id);
 
             counter.setClickable(false);        // TODO: Test this
@@ -60,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
             whoseTurn = player;
 
             // Animate the counter onto the screen
-            counter.animate().setStartDelay(1000).translationYBy(1000f).rotationBy(360).setDuration(1000).withEndAction(new Runnable() {
+            counter.animate().setStartDelay(1000).translationYBy(1000f).rotationBy(360)
+                    .setDuration(1000).withEndAction(new Runnable() {
                 @Override
                 public void run() {
                     makeBoardClickable(board);
@@ -295,7 +297,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         GridLayout gridLayout = findViewById(R.id.gridLayout);
-        gridLayout.animate().setStartDelay(300).rotationBy(1080).setDuration(1500).withEndAction(new Runnable() {
+        gridLayout.animate().setStartDelay(300).rotationBy(1080).setDuration(1500)
+                .withEndAction(new Runnable() {
             @Override
             public void run() {
                 LinearLayout linearLayout = findViewById(R.id.gameMessageLayout);
@@ -315,7 +318,8 @@ public class MainActivity extends AppCompatActivity {
                     int position = moveToPosition(move);
                     String idString = "imageView" + position;
                     Resources res = getResources();
-                    int id = res.getIdentifier(idString, "id", getApplicationContext().getPackageName());
+                    int id = res.getIdentifier(idString, "id", getApplicationContext()
+                            .getPackageName());
                     ImageView counter = findViewById(id);
                     counter.setClickable(false);
                 }
@@ -334,7 +338,8 @@ public class MainActivity extends AppCompatActivity {
                     int position = moveToPosition(move);
                     String idString = "imageView" + position;
                     Resources res = getResources();
-                    int id = res.getIdentifier(idString, "id", getApplicationContext().getPackageName());
+                    int id = res.getIdentifier(idString, "id", getApplicationContext()
+                            .getPackageName());
                     ImageView counter = findViewById(id);
                     counter.setClickable(true);
                 }
@@ -384,7 +389,8 @@ public class MainActivity extends AppCompatActivity {
         whoseTurn = opponent;
 
         // Animate the X counter onto the screen
-        counter.animate().translationYBy(1000f).rotationBy(360).setDuration(1000).withEndAction(new Runnable() {
+        counter.animate().translationYBy(1000f).rotationBy(360).setDuration(1000)
+                .withEndAction(new Runnable() {
             @Override
             public void run() {
 
