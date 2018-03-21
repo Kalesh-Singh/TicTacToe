@@ -5,19 +5,19 @@
 
 ```
 
-package com.kaleshsingh.tictactoe;
+   package com.kaleshsingh.tictactoe;
 
-// Required imports for the app
-import android.content.res.Resources;
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.GridLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+   // Required imports for the app
+   import android.content.res.Resources;
+   import android.os.AsyncTask;
+   import android.support.v7.app.AppCompatActivity;
+   import android.os.Bundle;
+   import android.view.View;
+   import android.widget.Button;
+   import android.widget.GridLayout;
+   import android.widget.ImageView;
+   import android.widget.LinearLayout;
+   import android.widget.TextView;
 
 ```
 
