@@ -1,7 +1,7 @@
 # Coding Sample #
 + The following piece of code is the implementation of logic for an android app of the classic game Tic-Tac-Toe.
-+ + This app makes use of the minimax algorithm so that the player can paly against the computer (AI).
-The explanation of the code if documented in the comments.
++ This app makes use of the minimax algorithm so that the player can paly against the computer (AI).
++ The explanation of the code if documented in the comments.
 ```
 package com.kaleshsingh.tictactoe;
 
