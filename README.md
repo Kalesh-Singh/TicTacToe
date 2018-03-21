@@ -3,7 +3,7 @@
 + This app makes use of the minimax algorithm to implement a simple AI for the user to play against.
 + The explanation of the code is documented in the comments.
 
-```
+```java
 
    package com.kaleshsingh.tictactoe;
 
@@ -19,9 +19,6 @@
    import android.widget.LinearLayout;
    import android.widget.TextView;
 
-```
-
-```
 public class MainActivity extends AppCompatActivity {
    // MainActivity is the MainThread and also the UI thread.
 
