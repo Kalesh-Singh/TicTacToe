@@ -19,11 +19,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+```
+
+```
 public class MainActivity extends AppCompatActivity {
    // MainActivity is the MainThread and also the UI thread.
 
     static class Move {
-    // A class to represeent a move.
+    // A class to represent a move.
         int row;
         int col;
     }
