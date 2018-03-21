@@ -2,7 +2,9 @@
 + The following code sample is the implementation of the logic for an android app of the classic game Tic-Tac-Toe.
 + This app makes use of the minimax algorithm to implement a simple AI for the user to play against.
 + The explanation of the code is documented in the comments.
+
 ```
+
 package com.kaleshsingh.tictactoe;
 
 // Required imports for the app
@@ -446,4 +448,5 @@ public class MainActivity extends AppCompatActivity {
         makeBoardUnClickable(board);
     }
 }
+
 ```
